@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taaza Khabar | Live News</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-top">
+            <h1 class="logo">Taaza Khabar</h1>
+            
+            <div class="search-box">
+                <input type="text" class="inputPlace" placeholder="Search news (e.g. India)...">
+                <button class="btn">Search</button>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="#" onclick="fetchCategory('')">Home</a>
+            <a href="#" onclick="fetchCategory('india')">India</a>
+            <a href="#" onclick="fetchCategory('world')">World</a>
+            <a href="#" onclick="fetchCategory('politics')">Politics</a>
+            <a href="#" onclick="fetchCategory('cricket')">Cricket</a>
+            <a href="#" onclick="fetchCategory('technology')">Tech</a>
+            <a href="#" onclick="fetchCategory('bollywood')">Entertainment</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero-container"></section>
+
+        <h2 class="section_title">Top Stories</h2>
+
+        <div id="news-grid" class="parent"></div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="about.html">About Taaza Khabar</a>
+                <a href="about.html">Contact Us</a>
+                <a href="about.html">Advertise</a>
+                <a href="about.html">Privacy Policy</a>
+            </div>
+            <p>&copy; 2025 Taaza Khabar Media. Powered by The Demu&Co.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
