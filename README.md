@@ -40,8 +40,8 @@ The repository contains two versions of the application:
    ```bash
    git clone [https://github.com/himmatmundhe07/taaza-khabar.git](https://github.com/himmatmundhe07/taaza-khabar.git)
 
-   ## 👨‍💻 About the Developer
-
+  
+    ## 👨‍💻 About the Developer
 **Himmat Mundhe** *Student Developer | Department of Computer Science* *Student of CodingGita*
 
 > "The goal of this project was to build a functional, responsive News Application that interacts with a real-world API."
